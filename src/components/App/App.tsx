@@ -1,6 +1,5 @@
 import { Route, Routes } from 'react-router-dom'
-import { Button } from '@mui/material'
-import SearchAppBar from '../Home/Home'
+import Home from '../Home/Home'
 
 import './App.css'
 
@@ -12,14 +11,6 @@ function App() {
         <Route path="/about" element={<About />} />
       </Routes>
     </div>
-  )
-}
-
-function Home() {
-  return (
-    <>
-      <SearchAppBar />
-    </>
   )
 }
 
